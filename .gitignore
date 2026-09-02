@@ -5,3 +5,6 @@ __pycache__/
 runs/
 *.pt
 
+*.egg-info/
+logs/
+results/*.err

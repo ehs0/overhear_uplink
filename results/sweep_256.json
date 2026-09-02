@@ -1,0 +1,195 @@
+{
+  "points": [
+    {
+      "checkpoint": "runs/sweep/no_overhear_l32/best.pt",
+      "use_overhear": false,
+      "lambda_rd": 32.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.20555827766656876,
+      "psnr": 25.391132354736328,
+      "mse": 0.002889926850912161,
+      "bpp_per_robot": [
+        0.213292196393013,
+        0.18248744308948517,
+        0.22089515626430511
+      ],
+      "psnr_per_robot": [
+        24.719877243041992,
+        27.32085418701172,
+        24.629817962646484
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/no_overhear_l64/best.pt",
+      "use_overhear": false,
+      "lambda_rd": 64.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.2563330829143524,
+      "psnr": 27.403030395507812,
+      "mse": 0.0018184315485996194,
+      "bpp_per_robot": [
+        0.27076539397239685,
+        0.22707070410251617,
+        0.27116310596466064
+      ],
+      "psnr_per_robot": [
+        26.836833953857422,
+        29.038238525390625,
+        26.704486846923828
+      ]
+    },
+    {
+      "checkpoint": "runs/no_overhear/best.pt",
+      "use_overhear": false,
+      "lambda_rd": 128.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.30938020162284374,
+      "psnr": 28.976638793945312,
+      "mse": 0.0012657154875341803,
+      "bpp_per_robot": [
+        0.3213775157928467,
+        0.28024372458457947,
+        0.3265193700790405
+      ],
+      "psnr_per_robot": [
+        28.514577865600586,
+        30.49150276184082,
+        28.24968147277832
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/no_overhear_l256/best.pt",
+      "use_overhear": false,
+      "lambda_rd": 256.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.36323891021311283,
+      "psnr": 30.125749588012695,
+      "mse": 0.0009714606530906167,
+      "bpp_per_robot": [
+        0.3780348300933838,
+        0.32600513100624084,
+        0.385676771402359
+      ],
+      "psnr_per_robot": [
+        29.73320770263672,
+        31.492326736450195,
+        29.423999786376953
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/overhear_l32/best.pt",
+      "use_overhear": true,
+      "lambda_rd": 32.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.12428155448287725,
+      "psnr": 26.49654769897461,
+      "mse": 0.00224050109682139,
+      "bpp_per_robot": [
+        0.2268599271774292,
+        0.06835172325372696,
+        0.07763297855854034
+      ],
+      "psnr_per_robot": [
+        25.741817474365234,
+        27.972980499267578,
+        26.088926315307617
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/overhear_l64/best.pt",
+      "use_overhear": true,
+      "lambda_rd": 64.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.15097121987491846,
+      "psnr": 28.0059814453125,
+      "mse": 0.001582711935043335,
+      "bpp_per_robot": [
+        0.2653524875640869,
+        0.08627034723758698,
+        0.10129080712795258
+      ],
+      "psnr_per_robot": [
+        27.274532318115234,
+        29.496116638183594,
+        27.564472198486328
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/overhear_l128/best.pt",
+      "use_overhear": true,
+      "lambda_rd": 128.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.18670175969600677,
+      "psnr": 29.60009765625,
+      "mse": 0.0010964532339130528,
+      "bpp_per_robot": [
+        0.3147120475769043,
+        0.1112973690032959,
+        0.13409583270549774
+      ],
+      "psnr_per_robot": [
+        28.541505813598633,
+        31.098825454711914,
+        29.531925201416016
+      ]
+    },
+    {
+      "checkpoint": "runs/sweep/overhear_l256/best.pt",
+      "use_overhear": true,
+      "lambda_rd": 256.0,
+      "samples": 256,
+      "num_robots": 3,
+      "image_size": 128,
+      "bpp": 0.2320665968582034,
+      "psnr": 31.46152114868164,
+      "mse": 0.0007142464019125327,
+      "bpp_per_robot": [
+        0.39703819155693054,
+        0.12981897592544556,
+        0.16934262216091156
+      ],
+      "psnr_per_robot": [
+        30.980297088623047,
+        32.46378707885742,
+        31.09160614013672
+      ]
+    }
+  ],
+  "same_lambda_pairs": [
+    {
+      "lambda_rd": 32.0,
+      "gain_percent": 39.53950388489271,
+      "delta_psnr": 1.1054153442382812
+    },
+    {
+      "lambda_rd": 64.0,
+      "gain_percent": 41.10349777778708,
+      "delta_psnr": 0.6029510498046875
+    },
+    {
+      "lambda_rd": 128.0,
+      "gain_percent": 39.652971096188836,
+      "delta_psnr": 0.6234588623046875
+    },
+    {
+      "lambda_rd": 256.0,
+      "gain_percent": 36.11185632011461,
+      "delta_psnr": 1.3357715606689453
+    }
+  ],
+  "bd_rate_percent": -45.08293160859643
+}

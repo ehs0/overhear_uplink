@@ -1,0 +1,30 @@
+{
+  "model": {
+    "channels": 48,
+    "latent_channels": 72,
+    "hyper_channels": 48,
+    "attention_heads": 4,
+    "attention_grid": 12,
+    "max_history": 4,
+    "min_scale": 0.11,
+    "use_overhear": false,
+    "detach_history": false
+  },
+  "data": {
+    "image_size": 128,
+    "num_robots": 3,
+    "synthetic_train_samples": 2048,
+    "synthetic_val_samples": 128,
+    "num_workers": 2
+  },
+  "training": {
+    "epochs": 50,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "lambda_rd": 64.0,
+    "prediction_weight": 0.05,
+    "grad_clip": 1.0,
+    "seed": 7
+  }
+}
